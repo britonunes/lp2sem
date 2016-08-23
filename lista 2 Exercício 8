@@ -1,0 +1,12 @@
+#include<stdio.h>
+main(){
+	int a;
+	printf("Digite um inteiro positivo:");
+	scanf("%d",&a);
+	
+	if(a%2==0)
+		return 1;
+	
+	else
+	 return 0;
+}
