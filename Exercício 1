@@ -1,0 +1,14 @@
+#include <stdio.h>
+main()
+{
+	int n,m;
+	
+	printf("Digite o primeiro valor: ");
+	scanf("%d",&n);
+	
+	printf("Digite o segundo valor: ");
+	scanf("%d",&m);
+	
+	printf("O valor da soma e:%d ", n + m);
+	
+}
