@@ -1,0 +1,11 @@
+#include <stdio.h>
+main()
+{
+	int nascimento;
+	
+	printf("Digite o ano de seu nascimento: ");
+	scanf("%d",&nascimento);
+	
+	printf("Sua idade e: %d ",2016 - nascimento);
+
+}
